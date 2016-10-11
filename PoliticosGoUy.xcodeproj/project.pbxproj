@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB9892A1DADB3210024024E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB989291DADB3210024024E /* AppDelegate.swift */; };
+		ECB9892C1DADB3210024024E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9892B1DADB3210024024E /* ViewController.swift */; };
+		ECB9892F1DADB3210024024E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB9892D1DADB3210024024E /* Main.storyboard */; };
+		ECB989321DADB3210024024E /* PoliticosGoUy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECB989301DADB3210024024E /* PoliticosGoUy.xcdatamodeld */; };
+		ECB989341DADB3210024024E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB989331DADB3210024024E /* Assets.xcassets */; };
+		ECB989371DADB3210024024E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB989351DADB3210024024E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECB989261DADB3210024024E /* PoliticosGoUy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliticosGoUy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB989291DADB3210024024E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECB9892B1DADB3210024024E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECB9892E1DADB3210024024E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB989311DADB3210024024E /* PoliticosGoUy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PoliticosGoUy.xcdatamodel; sourceTree = "<group>"; };
+		ECB989331DADB3210024024E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB989361DADB3210024024E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECB989381DADB3210024024E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB989231DADB3210024024E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB9891D1DADB3210024024E = {
+			isa = PBXGroup;
+			children = (
+				ECB989281DADB3210024024E /* PoliticosGoUy */,
+				ECB989271DADB3210024024E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB989271DADB3210024024E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB989261DADB3210024024E /* PoliticosGoUy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB989281DADB3210024024E /* PoliticosGoUy */ = {
+			isa = PBXGroup;
+			children = (
+				ECB989291DADB3210024024E /* AppDelegate.swift */,
+				ECB9892B1DADB3210024024E /* ViewController.swift */,
+				ECB9892D1DADB3210024024E /* Main.storyboard */,
+				ECB989331DADB3210024024E /* Assets.xcassets */,
+				ECB989351DADB3210024024E /* LaunchScreen.storyboard */,
+				ECB989381DADB3210024024E /* Info.plist */,
+				ECB989301DADB3210024024E /* PoliticosGoUy.xcdatamodeld */,
+			);
+			path = PoliticosGoUy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB989251DADB3210024024E /* PoliticosGoUy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB9893B1DADB3210024024E /* Build configuration list for PBXNativeTarget "PoliticosGoUy" */;
+			buildPhases = (
+				ECB989221DADB3210024024E /* Sources */,
+				ECB989231DADB3210024024E /* Frameworks */,
+				ECB989241DADB3210024024E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoliticosGoUy;
+			productName = PoliticosGoUy;
+			productReference = ECB989261DADB3210024024E /* PoliticosGoUy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB9891E1DADB3210024024E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Gustavo Rodriguez Ramos";
+				TargetAttributes = {
+					ECB989251DADB3210024024E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3P9844WU76;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ECB989211DADB3210024024E /* Build configuration list for PBXProject "PoliticosGoUy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB9891D1DADB3210024024E;
+			productRefGroup = ECB989271DADB3210024024E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB989251DADB3210024024E /* PoliticosGoUy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB989241DADB3210024024E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB989371DADB3210024024E /* LaunchScreen.storyboard in Resources */,
+				ECB989341DADB3210024024E /* Assets.xcassets in Resources */,
+				ECB9892F1DADB3210024024E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB989221DADB3210024024E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB9892C1DADB3210024024E /* ViewController.swift in Sources */,
+				ECB9892A1DADB3210024024E /* AppDelegate.swift in Sources */,
+				ECB989321DADB3210024024E /* PoliticosGoUy.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECB9892D1DADB3210024024E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB9892E1DADB3210024024E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB989351DADB3210024024E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB989361DADB3210024024E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB989391DADB3210024024E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB9893A1DADB3210024024E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB9893C1DADB3210024024E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3P9844WU76;
+				INFOPLIST_FILE = PoliticosGoUy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yo.PoliticosGoUy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ECB9893D1DADB3210024024E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3P9844WU76;
+				INFOPLIST_FILE = PoliticosGoUy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yo.PoliticosGoUy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB989211DADB3210024024E /* Build configuration list for PBXProject "PoliticosGoUy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB989391DADB3210024024E /* Debug */,
+				ECB9893A1DADB3210024024E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB9893B1DADB3210024024E /* Build configuration list for PBXNativeTarget "PoliticosGoUy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB9893C1DADB3210024024E /* Debug */,
+				ECB9893D1DADB3210024024E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECB989301DADB3210024024E /* PoliticosGoUy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECB989311DADB3210024024E /* PoliticosGoUy.xcdatamodel */,
+			);
+			currentVersion = ECB989311DADB3210024024E /* PoliticosGoUy.xcdatamodel */;
+			path = PoliticosGoUy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECB9891E1DADB3210024024E /* Project object */;
+}
