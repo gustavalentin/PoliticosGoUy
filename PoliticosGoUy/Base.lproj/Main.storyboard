@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PoliticosGoUy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +18,42 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5rF-Xh-dke"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3NM-Or-yHI">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="VYc-9q-5a5"/>
+                                    <constraint firstAttribute="height" constant="50" id="tcd-br-bSE"/>
+                                </constraints>
+                                <state key="normal" image="compass"/>
+                                <connections>
+                                    <action selector="actualizarUbicacion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2FZ-Fn-9h2"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5rF-Xh-dke" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="AvE-0P-ZVa"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5rF-Xh-dke" secondAttribute="bottom" id="GjU-OG-F05"/>
+                            <constraint firstItem="5rF-Xh-dke" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KUU-aZ-t9W"/>
+                            <constraint firstItem="3NM-Or-yHI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="U36-G7-uBX"/>
+                            <constraint firstItem="5rF-Xh-dke" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Vds-ww-lX8"/>
+                            <constraint firstItem="3NM-Or-yHI" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="XPT-9B-DaV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5rF-Xh-dke" secondAttribute="bottom" id="b3f-bG-SEx"/>
+                            <constraint firstAttribute="trailing" secondItem="5rF-Xh-dke" secondAttribute="trailing" id="qhq-Gs-nUj"/>
+                            <constraint firstAttribute="trailing" secondItem="5rF-Xh-dke" secondAttribute="trailing" id="xOw-b4-FJY"/>
+                            <constraint firstItem="5rF-Xh-dke" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ybz-Bd-7FU"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapa" destination="5rF-Xh-dke" id="vdz-nR-eR8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="compass" width="512" height="512"/>
+    </resources>
 </document>

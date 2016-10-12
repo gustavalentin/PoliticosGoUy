@@ -11,8 +11,9 @@
 		ECB9892C1DADB3210024024E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9892B1DADB3210024024E /* ViewController.swift */; };
 		ECB9892F1DADB3210024024E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB9892D1DADB3210024024E /* Main.storyboard */; };
 		ECB989321DADB3210024024E /* PoliticosGoUy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECB989301DADB3210024024E /* PoliticosGoUy.xcdatamodeld */; };
-		ECB989341DADB3210024024E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB989331DADB3210024024E /* Assets.xcassets */; };
 		ECB989371DADB3210024024E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB989351DADB3210024024E /* LaunchScreen.storyboard */; };
+		ECB989401DADB9BA0024024E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB9893F1DADB9BA0024024E /* MapKit.framework */; };
+		ECB989421DADBBD20024024E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB989411DADBBD20024024E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		ECB9892B1DADB3210024024E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECB9892E1DADB3210024024E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECB989311DADB3210024024E /* PoliticosGoUy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PoliticosGoUy.xcdatamodel; sourceTree = "<group>"; };
-		ECB989331DADB3210024024E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECB989361DADB3210024024E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECB989381DADB3210024024E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB9893F1DADB9BA0024024E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ECB989411DADBBD20024024E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB989401DADB9BA0024024E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				ECB989281DADB3210024024E /* PoliticosGoUy */,
 				ECB989271DADB3210024024E /* Products */,
+				ECB9893E1DADB9BA0024024E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +63,20 @@
 				ECB989291DADB3210024024E /* AppDelegate.swift */,
 				ECB9892B1DADB3210024024E /* ViewController.swift */,
 				ECB9892D1DADB3210024024E /* Main.storyboard */,
-				ECB989331DADB3210024024E /* Assets.xcassets */,
 				ECB989351DADB3210024024E /* LaunchScreen.storyboard */,
 				ECB989381DADB3210024024E /* Info.plist */,
 				ECB989301DADB3210024024E /* PoliticosGoUy.xcdatamodeld */,
+				ECB989411DADBBD20024024E /* Assets.xcassets */,
 			);
 			path = PoliticosGoUy;
+			sourceTree = "<group>";
+		};
+		ECB9893E1DADB9BA0024024E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECB9893F1DADB9BA0024024E /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECB989371DADB3210024024E /* LaunchScreen.storyboard in Resources */,
-				ECB989341DADB3210024024E /* Assets.xcassets in Resources */,
+				ECB989421DADBBD20024024E /* Assets.xcassets in Resources */,
 				ECB9892F1DADB3210024024E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +281,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yo.PoliticosGoUy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -282,6 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yo.PoliticosGoUy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
