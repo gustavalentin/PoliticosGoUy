@@ -7,25 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC5214981DB041FC00B49802 /* PoliticosGoUy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC5214961DB041FC00B49802 /* PoliticosGoUy.xcdatamodeld */; };
+		EC52149A1DB042B200B49802 /* cdHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5214991DB042B200B49802 /* cdHelper.swift */; };
 		ECB9892A1DADB3210024024E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB989291DADB3210024024E /* AppDelegate.swift */; };
 		ECB9892C1DADB3210024024E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9892B1DADB3210024024E /* ViewController.swift */; };
 		ECB9892F1DADB3210024024E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB9892D1DADB3210024024E /* Main.storyboard */; };
-		ECB989321DADB3210024024E /* PoliticosGoUy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECB989301DADB3210024024E /* PoliticosGoUy.xcdatamodeld */; };
 		ECB989371DADB3210024024E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB989351DADB3210024024E /* LaunchScreen.storyboard */; };
 		ECB989401DADB9BA0024024E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB9893F1DADB9BA0024024E /* MapKit.framework */; };
 		ECB989421DADBBD20024024E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB989411DADBBD20024024E /* Assets.xcassets */; };
+		ECB989441DADDFCC0024024E /* PoliticosColectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB989431DADDFCC0024024E /* PoliticosColectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC5214941DB0405D00B49802 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EC5214971DB041FC00B49802 /* PoliticosGoUy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PoliticosGoUy.xcdatamodel; sourceTree = "<group>"; };
+		EC5214991DB042B200B49802 /* cdHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cdHelper.swift; sourceTree = "<group>"; };
 		ECB989261DADB3210024024E /* PoliticosGoUy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliticosGoUy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB989291DADB3210024024E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECB9892B1DADB3210024024E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECB9892E1DADB3210024024E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ECB989311DADB3210024024E /* PoliticosGoUy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PoliticosGoUy.xcdatamodel; sourceTree = "<group>"; };
 		ECB989361DADB3210024024E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECB989381DADB3210024024E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB9893F1DADB9BA0024024E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		ECB989411DADBBD20024024E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB989431DADDFCC0024024E /* PoliticosColectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoliticosColectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +67,13 @@
 			children = (
 				ECB989291DADB3210024024E /* AppDelegate.swift */,
 				ECB9892B1DADB3210024024E /* ViewController.swift */,
+				ECB989431DADDFCC0024024E /* PoliticosColectionViewController.swift */,
 				ECB9892D1DADB3210024024E /* Main.storyboard */,
 				ECB989351DADB3210024024E /* LaunchScreen.storyboard */,
 				ECB989381DADB3210024024E /* Info.plist */,
-				ECB989301DADB3210024024E /* PoliticosGoUy.xcdatamodeld */,
 				ECB989411DADBBD20024024E /* Assets.xcassets */,
+				EC5214961DB041FC00B49802 /* PoliticosGoUy.xcdatamodeld */,
+				EC5214991DB042B200B49802 /* cdHelper.swift */,
 			);
 			path = PoliticosGoUy;
 			sourceTree = "<group>";
@@ -74,6 +81,7 @@
 		ECB9893E1DADB9BA0024024E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC5214941DB0405D00B49802 /* CoreData.framework */,
 				ECB9893F1DADB9BA0024024E /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -152,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5214981DB041FC00B49802 /* PoliticosGoUy.xcdatamodeld in Sources */,
 				ECB9892C1DADB3210024024E /* ViewController.swift in Sources */,
+				EC52149A1DB042B200B49802 /* cdHelper.swift in Sources */,
 				ECB9892A1DADB3210024024E /* AppDelegate.swift in Sources */,
-				ECB989321DADB3210024024E /* PoliticosGoUy.xcdatamodeld in Sources */,
+				ECB989441DADDFCC0024024E /* PoliticosColectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,16 +328,17 @@
 				ECB9893D1DADB3210024024E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		ECB989301DADB3210024024E /* PoliticosGoUy.xcdatamodeld */ = {
+		EC5214961DB041FC00B49802 /* PoliticosGoUy.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				ECB989311DADB3210024024E /* PoliticosGoUy.xcdatamodel */,
+				EC5214971DB041FC00B49802 /* PoliticosGoUy.xcdatamodel */,
 			);
-			currentVersion = ECB989311DADB3210024024E /* PoliticosGoUy.xcdatamodel */;
+			currentVersion = EC5214971DB041FC00B49802 /* PoliticosGoUy.xcdatamodel */;
 			path = PoliticosGoUy.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
